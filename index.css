@@ -1,0 +1,25 @@
+.masthead-reset-height {
+  height: 27.7rem;
+}
+.masthead-reset {
+  height: 90%;
+  padding-top: 5rem;
+}
+.masthead-reset .ibm-carousel-prev {
+  left: 4.4rem;
+}
+.masthead-reset .ibm-carousel-next {
+  right: 4.4rem;
+}
+
+.padding-space {
+  padding-left: 7rem !important;
+  padding-right: 7rem !important;
+}
+.position-space {
+  padding-right: 4.5rem !important;
+  padding-left: 4.5rem !important;
+}
+.manager-say {
+  padding-top: 2rem;
+}
