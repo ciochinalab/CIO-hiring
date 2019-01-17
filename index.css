@@ -1,3 +1,4 @@
+
 .ibm-blocklink:hover {
   border-color: #3b6caa;
 }
@@ -40,6 +41,9 @@
 }
 .masthead-reset {
   height: 90%;
+}
+.masthead-reset-width {
+  max-width: 1425px;
 }
 .masthead-reset .ibm-carousel-prev {
   left: 2rem;
