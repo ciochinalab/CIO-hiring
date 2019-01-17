@@ -1,15 +1,57 @@
+.ibm-blocklink:hover {
+  border-color: #3b6caa;
+}
+
+.ibm-card a {
+  color: black;
+}
+
+.ibm-btn-blue-60 {
+  color: #325c80;
+  border-color: #325c80;
+  padding-left: 2.8em;
+}
+
+.ibm-btn-blue-60:before {
+  left: 35px;
+  margin-top: 4px;
+}
+
+.ibm-card:hover .ibm-btn-blue-60, .ibm-btn-blue-60:hover {
+  background-color: #325c80;
+  border-color: #325c80;
+  color: white;
+}
+
+.ibm-mo__image {
+  padding-right: 50px;
+}
+
+.ibm-linkcolor-default, .slick-dots li button {
+  border-color: #5596e6;
+  color: #5596e6;
+}
+
+.slick-dots li.slick-active button {
+  background-color: #5596e6;
+}
 .masthead-reset-height {
   height: 33rem;
 }
 .masthead-reset {
   height: 90%;
-  padding-top: 5rem;
 }
 .masthead-reset .ibm-carousel-prev {
   left: 4.4rem;
 }
 .masthead-reset .ibm-carousel-next {
   right: 4.4rem;
+}
+.masthead-reset .slick-track {
+  height: 33rem;
+}
+.masthead-reset-height p {
+  line-height: 1.2;
 }
 
 .padding-space {
@@ -21,5 +63,59 @@
   padding-left: 4.5rem !important;
 }
 .manager-say {
-  padding-top: 2rem;
+  padding-top: 4rem;
+}
+.careerImg {
+  padding-top: 7rem;
+  background-image: url('./assets/images/career.png');
+  background-size: cover;
+  -webkit-background-size: cover; 
+  -moz-background-size: cover; 
+  -o-background-size: cover;
+}
+.technical {
+  padding-left: 12.5rem !important;
+  padding-right: 1.5rem !important;
+  padding-top: 9.8rem;
+  background-image: url('./assets/images/lightwall.png');
+  background-size: cover;
+  -webkit-background-size: cover; 
+  -moz-background-size: cover; 
+  -o-background-size: cover;
+}
+.ownershipImg {
+  padding-top: 13.5rem;
+  background-image: url('./assets/images/ownership.png');
+  background-size: cover;
+  -webkit-background-size: cover; 
+  -moz-background-size: cover; 
+  -o-background-size: cover;
+}
+.selfDirectedImg {
+  padding-top: 5rem;
+  background-image: url('./assets/images/self-directed.png');
+  background-size: cover;
+  -webkit-background-size: cover; 
+  -moz-background-size: cover; 
+  -o-background-size: cover;
+}
+.shareImg {
+  padding-top: 16.5rem;
+  background-image: url('./assets/images/share.png');
+  background-size: cover;
+  -webkit-background-size: cover; 
+  -moz-background-size: cover; 
+  -o-background-size: cover;
+}
+.shareImg p {
+  padding-bottom: 0;
+}
+/* .line-height-1-2 {
+  line-height: 1.2;
+} */
+.title-height {
+  line-height: 1 !important;
+}
+.p-size {
+  font-size: 1.25rem;
 }
