@@ -71,7 +71,7 @@
 }
 .careerImg {
   padding-top: 11rem;
-  background-image: url('./assets/images/career.png');
+  background-image: url('./assets/images/career.jpg');
   background-size: cover;
   -webkit-background-size: cover; 
   -moz-background-size: cover; 
@@ -81,7 +81,7 @@
   padding-left: 12.5rem !important;
   padding-right: 1.5rem !important;
   padding-top: 9.8rem;
-  background-image: url('./assets/images/lightwall.png');
+  background-image: url('./assets/images/lightwall.jpg');
   background-size: cover;
   -webkit-background-size: cover; 
   -moz-background-size: cover; 
@@ -89,7 +89,7 @@
 }
 .ownershipImg {
   padding-top: 13.5rem;
-  background-image: url('./assets/images/ownership.png');
+  background-image: url('./assets/images/ownership.jpg');
   background-size: cover;
   -webkit-background-size: cover; 
   -moz-background-size: cover; 
@@ -97,7 +97,7 @@
 }
 .selfDirectedImg {
   padding-top: 5rem;
-  background-image: url('./assets/images/self-directed.png');
+  background-image: url('./assets/images/self-directed.jpg');
   background-size: cover;
   -webkit-background-size: cover; 
   -moz-background-size: cover; 
@@ -105,7 +105,7 @@
 }
 .shareImg {
   padding-top: 8.2rem;
-  background-image: url('./assets/images/share.png');
+  background-image: url('./assets/images/share.jpg');
   background-size: cover;
   -webkit-background-size: cover; 
   -moz-background-size: cover; 
