@@ -37,10 +37,11 @@
   background-color: #5596e6;
 }
 .masthead-reset-height {
-  height: 33rem;
+  height: 20rem;
+  overflow: hidden;
 }
 .masthead-reset {
-  height: 90%;
+  height: 85%;
 }
 .masthead-reset-width {
   max-width: 1425px;
@@ -80,7 +81,7 @@
 .technical {
   padding-left: 12.5rem !important;
   padding-right: 1.5rem !important;
-  padding-top: 9.8rem;
+  padding-top: 4rem;
   background-image: url('./assets/images/lightwall.jpg');
   background-size: cover;
   -webkit-background-size: cover; 
@@ -88,7 +89,7 @@
   -o-background-size: cover;
 }
 .ownershipImg {
-  padding-top: 13.5rem;
+  padding-top: 9rem;
   background-image: url('./assets/images/ownership.jpg');
   background-size: cover;
   -webkit-background-size: cover; 
@@ -104,7 +105,7 @@
   -o-background-size: cover;
 }
 .shareImg {
-  padding-top: 8.2rem;
+  padding-top: 3rem;
   background-image: url('./assets/images/share.jpg');
   background-size: cover;
   -webkit-background-size: cover; 
