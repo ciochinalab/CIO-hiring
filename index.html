@@ -298,18 +298,6 @@
                                 </div>
                             </div>
 
-                            <script>
-                                function flip(event) {
-                                    var element = event.currentTarget;
-                                    if (element.style.transform == "rotateY(180deg)") {
-                                        element.style.transform = "rotateY(0deg)";
-                                    } else {
-                                        element.style.transform = "rotateY(180deg)";
-                                    }
-                                    return false;
-                                };
-                            </script>
-
                             <div class="ibm-band ibm-background-white-core ibm-padding-bottom-0 position-space">
                                 <div class="ibm-fluid ibm-padding-top-2" data-widget="setsameheight"
                                     data-items=" .ibm-card">
@@ -677,6 +665,24 @@
             win.addEventListener(resizeEvt, recalc, false);
             doc.addEventListener('DOMContentLoaded', recalc, false);
         })(document, window);
+
+        function flip(event) {
+            var element = event.currentTarget;
+            if (element.style.transform == "rotateY(180deg)") {
+                element.style.transform = "rotateY(0deg)";
+            } else {
+                element.style.transform = "rotateY(180deg)";
+            }
+            // other browsers
+            if (event && event.stopPropagation) {
+              event.stopPropagation(); 
+            }
+            // IE
+            else {
+              window.event.cancelBubble = true;
+            }
+            return false;
+        };
     </script>
 </body>
 
