@@ -297,9 +297,18 @@
                                     </div>
                                 </div>
                             </div>
-                            <!-- <div class="ibm-fluid ibm-padding-bottom-0">
-                    <div class="ibm-rule ibm-alternate ibm-gray-30"><hr></div>
-                  </div> -->
+
+                            <script>
+                                function flip(event) {
+                                    var element = event.currentTarget;
+                                    if (element.style.transform == "rotateY(180deg)") {
+                                        element.style.transform = "rotateY(0deg)";
+                                    } else {
+                                        element.style.transform = "rotateY(180deg)";
+                                    }
+                                    return false;
+                                };
+                            </script>
 
                             <div class="ibm-band ibm-background-white-core ibm-padding-bottom-0 position-space">
                                 <div class="ibm-fluid ibm-padding-top-2" data-widget="setsameheight"
@@ -311,10 +320,8 @@
                                     </div>
 
                                     <div class="ibm-col-12-4 ibm-col-medium-12-6">
-                                        <div class="ibm-card ibm-card--noborder">
-                                            <a href="https://careers.ibm.com/ShowJob/Id/447286/Full-Stack-Web-Developer/?lang=en"
-                                                id="Senior-Full-Stack-Web-Developer" target="_blank"
-                                                rel="noopener noreferrer" class="ibm-blocklink ibm-padding-content">
+                                        <div class="ibm-card" onclick="flip(event)">
+                                            <div id="Senior-Full-Stack-Web-Developer" class="ibm-padding-content front">
                                                 <img src="./assets/images/web.svg" width="60" alt="">
                                                 <h3 class="ibm-padding-top-1 ibm-padding-bottom-0 ibm-bold"
                                                     style="font-size: 1.13rem">Web全栈开发工程师</h3>
@@ -323,61 +330,153 @@
                                                     通过深入理解业务场景和需求，设计或优化应用解决方案。与业务、架构、开发和测试紧密合作,
                                                     实现核心业务逻辑。希望应聘人对技术有强烈的兴趣，对应用开发的最新潮流有关注，喜欢学习和尝试最新的技术，追求编写优雅的代码。理解与认同敏捷工程师文化，敢于接受挑战，抗压能力强。
                                                 </p>
+                                                <p class="ibm-ind-link"><a
+                                                        class="ibm-forward-link ibm-btn-sec ibm-btn-blue-60"
+                                                        style="font-size: 1rem" href="https://www.ibm.com/standards/web/v18/design/">See
+                                                        full job description</a></p>
+
+                                            </div>
+
+                                            <div id="Senior-Full-Stack-Web-Developer" class=" ibm-padding-content back">
+                                                <img src="./assets/images/web.svg" width="60" alt="">
+                                                <h3 class="ibm-padding-top-1 ibm-padding-bottom-0 ibm-bold"
+                                                    style="font-size: 1.13rem">Web enginner</h3>
+                                                <p class="ibm-textcolor-blue-80 ibm-light ibm-padding-top-1 ibm-padding-bottom-2"
+                                                    style="font-size: 0.94rem">
+                                                    123通过深入理解业务场景和需求，设计或优化应用解决方案。与业务、架构、开发和测试紧密合作,
+                                                    实现核心业务逻辑。希望应聘人对技术有强烈的兴趣，对应用开发的最新潮流有关注，喜欢学习和尝试最新的技术，追求编写优雅的代码。理解与认同敏捷工程师文化，敢于接受挑战，抗压能力强。
+                                                </p>
                                                 <p class="ibm-ind-link"><span
                                                         class="ibm-forward-link ibm-btn-sec ibm-btn-blue-60"
                                                         style="font-size: 1rem">See
                                                         full job description</span></p>
 
-                                            </a>
+                                            </div>
                                         </div>
+
                                     </div>
 
                                     <div class="ibm-col-12-4 ibm-col-medium-12-6">
-                                        <div class="ibm-card ibm-card--noborder">
-                                            <a href="https://careers.ibm.com/ShowJob/Id/447095/Data-Engineer/?lang=en"
-                                                id="Full-Stack-Web-Developer" target="_blank" rel="noopener noreferrer"
-                                                class="ibm-blocklink ibm-padding-content">
-                                                <img src="./assets/images/data.svg" width="60" alt="">
-                                                <h3 class="ibm-padding-top-1 ibm-padding-bottom-0 ibm-bold"
-                                                    style="font-size: 1.13rem">数据开发工程师</h3>
-                                                <p class="ibm-textcolor-blue-80 ibm-light ibm-padding-top-1 ibm-padding-bottom-2"
-                                                    style="font-size: 0.94rem">基于业务需求开发ETL
+                                            <div class="ibm-card" onclick="flip(event)">
+                                                    <div id="Full-Stack-Web-Developer" class="ibm-padding-content front">
+                                                        <img src="./assets/images/data.svg" width="60" alt="">
+                                                        <h3 class="ibm-padding-top-1 ibm-padding-bottom-0 ibm-bold"
+                                                            style="font-size: 1.13rem">数据开发工程师</h3>
+                                                        <p class="ibm-textcolor-blue-80 ibm-light ibm-padding-top-1 ibm-padding-bottom-2"
+                                                            style="font-size: 0.94rem">
+                                                            基于业务需求开发ETL
                                                     job来处理业务数据，开发BI报表来展现业务数据。希望应聘人具有丰富的SQL和ETL开发技能，至少具有一年以上实际项目的ETL数据开发经验；具有丰富的Unix/Linux
-                                                    shell 脚本开发经验；具有丰富的数据库理论知识背景; 具有丰富的数据集成，数据仓库和大数据技术。</p>
+                                                    shell 脚本开发经验；具有丰富的数据库理论知识背景; 具有丰富的数据集成，数据仓库和大数据技术。
+                                                        </p>
+                                                        <p class="ibm-ind-link"><a
+                                                                class="ibm-forward-link ibm-btn-sec ibm-btn-blue-60"
+                                                                style="font-size: 1rem" href="https://www.ibm.com/standards/web/v18/design/">See
+                                                                full job description</a></p>
+        
+                                                    </div>
+        
+                                                    <div id="Full-Stack-Web-Developer" class=" ibm-padding-content back">
+                                                        <img src="./assets/images/data.svg" width="60" alt="">
+                                                        <h3 class="ibm-padding-top-1 ibm-padding-bottom-0 ibm-bold"
+                                                            style="font-size: 1.13rem">Web enginner</h3>
+                                                        <p class="ibm-textcolor-blue-80 ibm-light ibm-padding-top-1 ibm-padding-bottom-2"
+                                                            style="font-size: 0.94rem">
+                                                            123通过深入理解业务场景和需求，设计或优化应用解决方案。与业务、架构、开发和测试紧密合作,
+                                                            实现核心业务逻辑。希望应聘人对技术有强烈的兴趣，对应用开发的最新潮流有关注，喜欢学习和尝试最新的技术，追求编写优雅的代码。理解与认同敏捷工程师文化，敢于接受挑战，抗压能力强。
+                                                        </p>
+                                                        <p class="ibm-ind-link"><span
+                                                                class="ibm-forward-link ibm-btn-sec ibm-btn-blue-60"
+                                                                style="font-size: 1rem">See
+                                                                full job description</span></p>
+        
+                                                    </div>
+                                                </div>
 
-                                                <p class="ibm-ind-link"><span
-                                                        class="ibm-forward-link ibm-btn-sec ibm-btn-blue-60"
-                                                        style="font-size: 1rem">See
-                                                        full job description</span></p>
-                                            </a>
-                                        </div>
                                     </div>
 
                                     <div class="ibm-col-12-4 ibm-col-medium-12-6">
-                                        <div class="ibm-card ibm-card--noborder">
-                                            <a href="https://careers.ibm.com/ShowJob/Id/464537/Salesforce-Business-Analyst/?lang=en"
-                                                id="UI-UX-Designer" target="_blank" rel="noopener noreferrer"
-                                                class="ibm-blocklink ibm-padding-content">
-                                                <img src="./assets/images/data.svg" width="60" alt="">
-                                                <h3 class="ibm-padding-top-1 ibm-padding-bottom-0 ibm-bold"
-                                                    style="font-size: 1.13rem">Salesforce业务分析师/工程师</h3>
-                                                <p class="ibm-textcolor-blue-80 ibm-light ibm-padding-top-1 ibm-padding-bottom-2"
-                                                    style="font-size: 0.94rem">基于业务需要开发和扩展Salesforce
+                                            <div class="ibm-card" onclick="flip(event)">
+                                                    <div id="Full-Stack-Web-Developer" class="ibm-padding-content front">
+                                                        <img src="./assets/images/data.svg" width="60" alt="">
+                                                        <h3 class="ibm-padding-top-1 ibm-padding-bottom-0 ibm-bold"
+                                                            style="font-size: 1.13rem">Salesforce业务分析师/工程师</h3>
+                                                        <p class="ibm-textcolor-blue-80 ibm-light ibm-padding-top-1 ibm-padding-bottom-2"
+                                                            style="font-size: 0.94rem">
+                                                            基于业务需要开发和扩展Salesforce
                                                     CRM/CPQ平台以支持IBM软件服务销售。希望应聘人具有两年以上Salesforce配置和研发经验，熟悉Salesforce平台技术，包括visualforce,
                                                     Lightning,
                                                     Apex, platform events, SOQL&SOSL等，有Salesforce配置,
-                                                    定制和数据迁移的项目经验；熟悉CRM/CPQ业务知识。</p>
-
-                                                <p class="ibm-ind-link"><span
-                                                        class="ibm-forward-link ibm-btn-sec ibm-btn-blue-60"
-                                                        style="font-size: 1rem">See
-                                                        full job description</span></p>
-                                            </a>
-                                        </div>
+                                                    定制和数据迁移的项目经验；熟悉CRM/CPQ业务知识。
+                                                        </p>
+                                                        <p class="ibm-ind-link"><a
+                                                                class="ibm-forward-link ibm-btn-sec ibm-btn-blue-60"
+                                                                style="font-size: 1rem" href="https://www.ibm.com/standards/web/v18/design/">See
+                                                                full job description</a></p>
+        
+                                                    </div>
+        
+                                                    <div id="Full-Stack-Web-Developer" class=" ibm-padding-content back">
+                                                        <img src="./assets/images/data.svg" width="60" alt="">
+                                                        <h3 class="ibm-padding-top-1 ibm-padding-bottom-0 ibm-bold"
+                                                            style="font-size: 1.13rem">Web enginner</h3>
+                                                        <p class="ibm-textcolor-blue-80 ibm-light ibm-padding-top-1 ibm-padding-bottom-2"
+                                                            style="font-size: 0.94rem">
+                                                            123通过深入理解业务场景和需求，设计或优化应用解决方案。与业务、架构、开发和测试紧密合作,
+                                                            实现核心业务逻辑。希望应聘人对技术有强烈的兴趣，对应用开发的最新潮流有关注，喜欢学习和尝试最新的技术，追求编写优雅的代码。理解与认同敏捷工程师文化，敢于接受挑战，抗压能力强。
+                                                        </p>
+                                                        <p class="ibm-ind-link"><span
+                                                                class="ibm-forward-link ibm-btn-sec ibm-btn-blue-60"
+                                                                style="font-size: 1rem">See
+                                                                full job description</span></p>
+        
+                                                    </div>
+                                                </div>
                                     </div>
 
                                     <div class="ibm-col-12-4 ibm-col-medium-12-6">
-                                        <div class="ibm-card ibm-card--noborder">
+                                        <!-- <div class="ibm-card" onclick="flip(event)">
+                                                    <div id="Full-Stack-Web-Developer" class="ibm-padding-content front">
+                                                        <img src="./assets/images/data.svg" width="60" alt="">
+                                                        <h3 class="ibm-padding-top-1 ibm-padding-bottom-0 ibm-bold"
+                                                            style="font-size: 1.13rem">Salesforce业务分析师/工程师</h3>
+                                                        <p class="ibm-textcolor-blue-80 ibm-light ibm-padding-top-1 ibm-padding-bottom-2"
+                                                            style="font-size: 0.94rem">
+                                                            基于业务需要开发和扩展Salesforce
+                                                    CRM/CPQ平台以支持IBM软件服务销售。希望应聘人具有两年以上Salesforce配置和研发经验，熟悉Salesforce平台技术，包括visualforce,
+                                                    Lightning,
+                                                    Apex, platform events, SOQL&SOSL等，有Salesforce配置,
+                                                    定制和数据迁移的项目经验；熟悉CRM/CPQ业务知识。
+                                                        </p>
+                                                        <p class="ibm-ind-link"><a
+                                                                class="ibm-forward-link ibm-btn-sec ibm-btn-blue-60"
+                                                                style="font-size: 1rem" href="https://www.ibm.com/standards/web/v18/design/">See
+                                                                full job description</a></p>
+        
+                                                    </div>
+        
+                                                    <div id="Full-Stack-Web-Developer" class=" ibm-padding-content back">
+                                                        <img src="./assets/images/data.svg" width="60" alt="">
+                                                        <h3 class="ibm-padding-top-1 ibm-padding-bottom-0 ibm-bold"
+                                                            style="font-size: 1.13rem">Web enginner</h3>
+                                                        <p class="ibm-textcolor-blue-80 ibm-light ibm-padding-top-1 ibm-padding-bottom-2"
+                                                            style="font-size: 0.94rem">
+                                                            123通过深入理解业务场景和需求，设计或优化应用解决方案。与业务、架构、开发和测试紧密合作,
+                                                            实现核心业务逻辑。希望应聘人对技术有强烈的兴趣，对应用开发的最新潮流有关注，喜欢学习和尝试最新的技术，追求编写优雅的代码。理解与认同敏捷工程师文化，敢于接受挑战，抗压能力强。
+                                                        </p>
+                                                        <p class="ibm-ind-link"><span
+                                                                class="ibm-forward-link ibm-btn-sec ibm-btn-blue-60"
+                                                                style="font-size: 1rem">See
+                                                                full job description</span></p>
+        
+                                                    </div>
+                                                </div> -->
+
+
+
+
+
+
+                                        <div class="ibm-card ">
                                             <a href="" id="UI-UX-Designer" target="_blank" rel="noopener noreferrer"
                                                 class="ibm-blocklink ibm-padding-content">
                                                 <img src="./assets/images/data.svg" width="60" alt="">
