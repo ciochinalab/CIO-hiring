@@ -1,5 +1,8 @@
-
 .ibm-blocklink:hover {
+  border-color: #3b6caa;
+}
+
+.ibm-card:hover {
   border-color: #3b6caa;
 }
 
@@ -18,7 +21,8 @@
   margin-top: 4px;
 }
 
-.ibm-card:hover .ibm-btn-blue-60, .ibm-btn-blue-60:hover {
+.ibm-card:hover .ibm-btn-blue-60,
+.ibm-btn-blue-60:hover {
   background-color: #325c80;
   border-color: #325c80;
   color: white;
@@ -28,7 +32,8 @@
   padding-right: 50px;
 }
 
-.ibm-linkcolor-default, .slick-dots li button {
+.ibm-linkcolor-default,
+.slick-dots li button {
   border-color: #5596e6;
   color: #5596e6;
 }
@@ -36,25 +41,32 @@
 .slick-dots li.slick-active button {
   background-color: #5596e6;
 }
+
 .masthead-reset-height {
   height: 20rem;
   overflow: hidden;
 }
+
 .masthead-reset {
   height: 85%;
 }
+
 .masthead-reset-width {
   max-width: 1425px;
 }
+
 .masthead-reset .ibm-carousel-prev {
   left: 2rem;
 }
+
 .masthead-reset .ibm-carousel-next {
   right: 2rem;
 }
+
 .masthead-reset .slick-track {
   height: 33rem;
 }
+
 .masthead-reset-height p {
   line-height: 1.2;
 }
@@ -63,61 +75,103 @@
   padding-left: 7rem !important;
   padding-right: 7rem !important;
 }
+
 .position-space {
   padding-right: 4.5rem !important;
   padding-left: 4.5rem !important;
 }
+
 .manager-say {
   padding-top: 4rem;
 }
+
 .careerImg {
   padding-top: 11rem;
   background-image: url('./assets/images/career.jpg');
   background-size: cover;
-  -webkit-background-size: cover; 
-  -moz-background-size: cover; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
   -o-background-size: cover;
 }
+
 .technical {
   padding-left: 12.5rem !important;
   padding-right: 1.5rem !important;
   padding-top: 4rem;
   background-image: url('./assets/images/lightwall.jpg');
   background-size: cover;
-  -webkit-background-size: cover; 
-  -moz-background-size: cover; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
   -o-background-size: cover;
 }
+
 .ownershipImg {
   padding-top: 9rem;
   background-image: url('./assets/images/ownership.jpg');
   background-size: cover;
-  -webkit-background-size: cover; 
-  -moz-background-size: cover; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
   -o-background-size: cover;
 }
+
 .selfDirectedImg {
   padding-top: 5rem;
   background-image: url('./assets/images/self-directed.jpg');
   background-size: cover;
-  -webkit-background-size: cover; 
-  -moz-background-size: cover; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
   -o-background-size: cover;
 }
+
 .shareImg {
   padding-top: 3rem;
   background-image: url('./assets/images/share.jpg');
   background-size: cover;
-  -webkit-background-size: cover; 
-  -moz-background-size: cover; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
   -o-background-size: cover;
 }
+
 .shareImg p {
   padding-bottom: 0;
 }
+
 .title-height {
   line-height: 1 !important;
 }
+
 .p-size {
   font-size: 1.25rem;
+}
+
+.ibm-card {
+  min-height: 250px;
+  transition: transform 1s;
+  -moz-transition: transform 1s;
+  -webkit-transition: transform 1s;
+  -o-transition: transform 1s;
+  transform-style: preserve-3d;
+  -moz-transform-style: preserve-3d;
+  -webkit-transform-style: preserve-3d;
+  -o-transform-style: preserve-3d;
+}
+
+.front,
+.back {
+  position: absolute;
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+  -o-backface-visibility: hidden;
+  transform-style: preserve-3d;
+  -moz-transform-style: preserve-3d;
+  -webkit-transform-style: preserve-3d;
+  -o-transform-style: preserve-3d;
+}
+
+.back {
+  transform: rotateY(180deg);
+  -webkit-transform: rotateY(180deg);
+  -moz-transform: rotateY(180deg);
+  -o-transform: rotateY(180deg);
 }
