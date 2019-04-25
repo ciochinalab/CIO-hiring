@@ -144,8 +144,8 @@
   font-size: 1.25rem;
 }
 
-.ibm-card {
-  min-height: 250px;
+.ibm-rotate {
+  position: relative;
   transition: transform 1s;
   -moz-transition: transform 1s;
   -webkit-transition: transform 1s;
@@ -158,7 +158,6 @@
 
 .front,
 .back {
-  position: absolute;
   backface-visibility: hidden;
   -webkit-backface-visibility: hidden;
   -moz-backface-visibility: hidden;
@@ -170,6 +169,7 @@
 }
 
 .back {
+  display: none;
   transform: rotateY(180deg);
   -webkit-transform: rotateY(180deg);
   -moz-transform: rotateY(180deg);
